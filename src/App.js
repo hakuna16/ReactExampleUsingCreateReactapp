@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
-import Login from './components/Login';
+import LoginPage from './components/LoginPage';
 
 class App extends Component {
   render() {
     return (
       <div>
         <Header/>
-        <Login/>
+        <LoginPage/>
       </div>
     );
   }
